@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import SearchBar from '../SearchBar/SearchBar';
-import SearchResults from '../SearchResults/SearchResults';
-import Playlist from '../Playlist/Playlist';
+import { SearchBar } from '../SearchBar/SearchBar';
+import { SearchResults } from '../SearchResults/SearchResults';
+import { Playlist } from '../Playlist/Playlist';
 
 export class App extends React.Component {
   constructor(props) {
