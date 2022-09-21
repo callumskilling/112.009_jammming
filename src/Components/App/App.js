@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import { SearchBar } from '../SearchBar/SearchBar';
@@ -8,9 +7,13 @@ import { Playlist } from '../Playlist/Playlist';
 export class App extends React.Component {
   constructor(props) {
     super(props);
-
-    this.state = { searchResults : ['Running Up That Hill', 'Placebo', 'Covers', '6RHHbAbyIcPpvS1dP3KUGq']}
+    this.state = {
+      searchResults: [
+        { name: "Running Up That Hill", artist: "Placebo", album: "Covers", id: 1 },{ name: "Running Up That Hill", artist: "Placebo", album: "Covers", id: 2 }
+      ]
+    }
   }
+
   render() {
     return (
       <div>
@@ -18,8 +21,8 @@ export class App extends React.Component {
         <div className="App">
           <SearchBar />
           <div className="App-playlist">
-          <SearchResults searchResult = { this.state.searchResults }/>
-          <Playlist />
+            <SearchResults searchResults={this.state.searchResults} />
+            <Playlist />
           </div>
         </div>
       </div>
