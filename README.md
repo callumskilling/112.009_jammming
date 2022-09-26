@@ -1,6 +1,6 @@
 # React App created from Codecademy Course
 
-This project was created from Codecademy. Nearly all HTML and CSS was given, the purpose is to practice file directories and programming patterns for component interactions.
+This project was created from Codecademy. Nearly all HTML and CSS was given, the purpose is to practice file directories and programming patterns for component interactions in React.
 
 ## Getting Started with Create React App
 
