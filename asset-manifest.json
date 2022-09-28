@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/callumskilling/112.009_jammming/static/css/main.8b9850c3.css",
-    "main.js": "/callumskilling/112.009_jammming/static/js/main.a3c14d72.js",
-    "static/js/787.9f2f5b67.chunk.js": "/callumskilling/112.009_jammming/static/js/787.9f2f5b67.chunk.js",
-    "static/media/background_photo_desktop.jpg": "/callumskilling/112.009_jammming/static/media/background_photo_desktop.a0687f3fe6f1303a2d18.jpg",
-    "index.html": "/callumskilling/112.009_jammming/index.html",
-    "main.8b9850c3.css.map": "/callumskilling/112.009_jammming/static/css/main.8b9850c3.css.map",
-    "main.a3c14d72.js.map": "/callumskilling/112.009_jammming/static/js/main.a3c14d72.js.map",
-    "787.9f2f5b67.chunk.js.map": "/callumskilling/112.009_jammming/static/js/787.9f2f5b67.chunk.js.map"
+    "main.css": "/112.009_jammming/static/css/main.c3001498.css",
+    "main.js": "/112.009_jammming/static/js/main.047fe0db.js",
+    "static/js/787.9f2f5b67.chunk.js": "/112.009_jammming/static/js/787.9f2f5b67.chunk.js",
+    "static/media/background_photo_desktop.jpg": "/112.009_jammming/static/media/background_photo_desktop.a0687f3fe6f1303a2d18.jpg",
+    "index.html": "/112.009_jammming/index.html",
+    "main.c3001498.css.map": "/112.009_jammming/static/css/main.c3001498.css.map",
+    "main.047fe0db.js.map": "/112.009_jammming/static/js/main.047fe0db.js.map",
+    "787.9f2f5b67.chunk.js.map": "/112.009_jammming/static/js/787.9f2f5b67.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b9850c3.css",
-    "static/js/main.a3c14d72.js"
+    "static/css/main.c3001498.css",
+    "static/js/main.047fe0db.js"
   ]
 }
