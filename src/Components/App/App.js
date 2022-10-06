@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 import { SearchBar } from '../SearchBar/SearchBar';
+import { Player } from '../Player/Player';
 import { SearchResults } from '../SearchResults/SearchResults';
 import { Playlist } from '../Playlist/Playlist';
 import Spotify from '../../util/Spotify';
@@ -11,7 +12,8 @@ export class App extends React.Component {
     this.state = {
       searchResults: [],
       playlistName: "My Playlist",
-      playlistTracks: []
+      playlistTracks: [],
+      previewTrack: ""
     }
 
     this.addTrack = this.addTrack.bind(this);
@@ -19,6 +21,11 @@ export class App extends React.Component {
     this.updatePlaylistName = this.updatePlaylistName.bind(this);
     this.savePlaylist = this.savePlaylist.bind(this);
     this.search = this.search.bind(this);
+    this.previewTrack = this.previewTrack.bind(this);
+  }
+
+  previewTrack(track) {
+    this.setState({ previewTrack : `https://open.spotify.com/embed/track/${track.id}?utm_source=generator`})
   }
 
   addTrack(track) {
@@ -63,8 +70,9 @@ export class App extends React.Component {
         <h1>Ja<span className="highlight">mmm</span>ing</h1>
         <div className="App">
           <SearchBar onSearch={this.search}/>
+          <Player previewTrackUrl = {this.state.previewTrack} />
           <div className="App-playlist">
-            <SearchResults searchResults={this.state.searchResults} onAdd={this.addTrack} />
+            <SearchResults searchResults={this.state.searchResults} onAdd={this.addTrack} previewTrack = {this.previewTrack}/>
             <Playlist playlistName={this.state.playlistName} playlistTracks={this.state.playlistTracks} onRemove = {this.removeTrack} onNameChange = {this.updatePlaylistName} onSave = {this.savePlaylist}/>
           </div>
         </div>
