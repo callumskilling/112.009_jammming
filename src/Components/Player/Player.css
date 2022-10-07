@@ -1,3 +1,11 @@
 iframe {
     border-radius: 12px;
+    width: 50%;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+iframe[src=""] {
+    height: 0;
 }

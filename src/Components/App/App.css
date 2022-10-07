@@ -39,6 +39,12 @@ h2 {
   color: #fff;
 }
 
+.Player-Container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .App-playlist {
   display: flex;
   justify-content: space-between;

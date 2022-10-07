@@ -1,5 +1,5 @@
 const clientId = '06722ab24b884e309b389c4cc3b3ad8b';
-const redirectUri = 'https://callumskilling.github.io/112.009_jammming/';
+const redirectUri = 'http://localhost:3000/112.009_jammming';
 
 let accessToken;
 
